@@ -99,7 +99,7 @@ int delete_front()
 {
     struct node*temp ;
     temp = first;
-    if(temp -> next ==NULL)
+    if(temp -> next == NULL)
     {
         free(temp);
         first = NULL;
