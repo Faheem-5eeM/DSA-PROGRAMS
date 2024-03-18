@@ -78,6 +78,7 @@ int delete_end()
     temp = first;
     if(temp -> next ==NULL)
     {
+        printf("%s %s %s %d %d\n",last->usn,last->name,last->branch,last->sem,last->phno);
         free(temp);
         first = NULL;
     }
